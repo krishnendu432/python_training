@@ -4,3 +4,4 @@ b=10
 s=a+b+c
 print(s)
 print(type(a))
+print(type(b))
