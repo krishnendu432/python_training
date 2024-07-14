@@ -8,3 +8,5 @@ try : #It will check the file is available or not
 #If the file is not available then catch the exception
 except FileNotFoundError:
     print("The particular file is not available in the specific path")
+finally:
+    print("Closed the file.")
