@@ -3,9 +3,9 @@
 team=['Rahul', 'Mukesh', 'Gill', 'Jaiswal', 'Kuldeep', 'Surya', 'Shami', 'Siraj']
 # How to print the full list
 print(team)
-#If we require to print particular value then how you will do
+# If we require to print particular value then how you will do
 print(f'The wicket keeper of the team is: {team[0]}')
-# How to added a value in the given list?
+# How to add a value in the given list?
 print('After append the new value, the list is like')
 team.append('Hardik')
 print(team)
@@ -17,14 +17,14 @@ print(team)
 team.reverse()
 print("The team as in reverse way:")
 print(team)
-#How to remove value from the list
+# How to remove value from the list
 team.remove('Shami')
 print ('After remove Shami the remaining team members are')
 print(team)
-#How to modify the attributes of the list
-#team[7]='Surya Kumar'
-#print("After modify the name the new team list is:")
-#print(team)
+# How to modify the attributes of the list
+# team[7]='Surya Kumar'
+# print("After modify the name the new team list is:")
+# print(team)
 # How to insert a value at a given position
 team.insert(6,"Shami")
 print("After insert Shami in the specific position the team is :")
