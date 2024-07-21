@@ -2,7 +2,11 @@
 # In sets you can't use duplicate value, you can define duplicate value but when you will print the sets
 # the duplicate value will not print
 # It will print unordered way.
-my_sets ={"mon" , "tues" , "wed" , "mon"}
+# create a empty sets
+my_sets=() # don't use my_sets={}, it will create empty dictionary.
+my_sets={"mon" , "tues" , "wed" , "mon"}
+print("Display the data type of sets : \n")
+print(my_sets, type(my_sets))
 print("Display the list of sets: ")
 print(my_sets)
 print("Add a new value in the sets:")
