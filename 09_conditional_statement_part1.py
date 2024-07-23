@@ -16,7 +16,8 @@ else:
 # Write a program where we will take input as a post from user.
 # We will check that the post is talking about predefine statement or not.
 post = input("Enter you post : ")
-if ("India".lower() in post.lower()) :
-    print("The post is about India.")
+check = input(" Enter the variable with which you want check your post ")
+if (check.lower() in post.lower()) :
+    print(f"The post is about {check}.")
 else:
-    print("The post is not about India.")
+    print(f"The post is not about {check}.")
