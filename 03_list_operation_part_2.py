@@ -45,3 +45,17 @@ while start<l :
     start=start+1
 print(f"The 2nd way to count '0' in the given list: \n {count}")
 
+# Take numeric number from user and find the largest and lowest number in the list
+number=[]
+length=int(input("Enter the length of the list : "))
+count=0
+while count<length :
+    digit=float(input("Enter your number :"))
+    number.append(digit)
+    count=count+1
+print(f"The list is : {number}")
+maximum=max(number)
+print(f"The maximum value of the lis is: {maximum} ")
+minimum=min(number)
+print(f"The minimum value of the lis is: {minimum} ")
+
