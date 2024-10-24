@@ -11,7 +11,7 @@ team.append('Hardik')
 print(team)
 # How to sort the listed value
 team.sort()
-print("The team as in sorted way:")
+print("The team has in sorted way:")
 print(team)
 # How to do reverse sorting
 team.reverse()
@@ -19,7 +19,7 @@ print("The team as in reverse way:")
 print(team)
 # How to remove value from the list
 team.remove('Shami')
-print ('After remove Shami the remaining team members are')
+print ('After remove Shami from the remaining team members are')
 print(team)
 # How to modify the attributes of the list
 # team[7]='Surya Kumar'
