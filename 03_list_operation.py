@@ -2,7 +2,7 @@
 # Unlike string the list are mutable. You can change the value of the list.
 team=['Rahul', 'Mukesh', 'Gill', 'Jaiswal', 'Ravi', 'Surya', 'Shami', 'Siraj']
 # How to print the full list
-prin(team)
+print(team)
 # If we require to print particular value then how you will do
 print(f'The wicket keeper of the team is: {team[0]}')
 # How to add a value in the given list?
