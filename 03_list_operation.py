@@ -1,6 +1,6 @@
 # created a list of members
 # Unlike string the list are mutable. You can change the value of the list.
-team=['Rahul', 'Mukesh', 'Gill', 'Jaiswal', 'Kuldeep', 'Surya', 'Shami', 'Siraj']
+team=['Rahul', 'Mukesh', 'Gill', 'Jaiswal', 'Ravi', 'Surya', 'Shami', 'Siraj']
 # How to print the full list
 print(team)
 # If we require to print particular value then how you will do
