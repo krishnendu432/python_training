@@ -1,4 +1,4 @@
-# created a list of members
+t# created a list of members
 # Unlike string the list are mutable. You can change the value of the list.
 team=['Rahul', 'Mukesh', 'Gill', 'Jaiswal', 'Ravi', 'Surya', 'Shami', 'Siraj']
 # How to print the full list
